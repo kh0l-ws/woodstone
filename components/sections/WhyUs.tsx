@@ -47,7 +47,7 @@ const items = [
 
 export default function WhyUs() {
   return (
-    <section className="py-28 bg-neutral-50">
+    <section className="py-28 bg-white">
       <Container>
         <SectionTitle
           eyebrow="Proč právě my"

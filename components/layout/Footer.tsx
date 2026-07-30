@@ -73,7 +73,7 @@ export default function Footer() {
 <div className="mt-16" />
 
 <div className="flex flex-col gap-4 border-t border-white/10 py-8 text-sm text-neutral-500 md:flex-row md:items-center md:justify-between">
-  <p>© 2026 WOOD&STONE. Všechna práva vyhrazena.</p>
+  <p>© 2026 WOOD&STONE s.r.o. Všechna práva vyhrazena.</p>
   <p>Navrženo a vytvořeno s důrazem na kvalitu.</p>
 </div>
       </Container>
