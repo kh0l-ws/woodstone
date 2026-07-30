@@ -85,7 +85,7 @@ export default function Footer() {
               </p>
 
               <p>
-                Brno, Česká republika
+                Adolfovice 521, Česká republika
               </p>
 
             </div>
