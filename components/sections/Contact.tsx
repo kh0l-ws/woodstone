@@ -56,7 +56,7 @@ export default function Contact() {
                 </p>
 
                 <p className="text-neutral-600">
-                  Brno, Česká republika
+                  Adolfovice 521, Česká republika
                 </p>
               </div>
 
