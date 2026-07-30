@@ -56,7 +56,7 @@ export default function About() {
 
   <FadeIn delay={0.2}>
     <div className="rounded-3xl bg-white p-10 shadow-sm">
-      <h3 className="text-5xl font-bold text-a  ">
+      <h3 className="text-5xl font-bold text-amber-700">
         <Counter end={100} suffix=" %" />
       </h3>
       <p className="mt-4">spokojených zákazníků</p>
