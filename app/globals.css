@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+:root {
+  --background: #EFE7DC;   /* teplejší */
+  --foreground: #2f2f2f;
+
+  --primary: #A27B5C;      /* méně oranžová */
+  --secondary: #252321;    /* ne úplně černá */
+
+  --accent: #8f745b;       /* místo zelené */
+
+  --font-heading: "Manrope", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-heading);
+}
+
+section {
+  position: relative;
+}
