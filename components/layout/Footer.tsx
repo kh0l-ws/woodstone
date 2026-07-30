@@ -4,11 +4,8 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="bg-[#1F1F1F] text-white">
-
       <Container>
-
         <div className="border-b border-white/10 py-20">
-
           <h2 className="text-5xl font-black tracking-wider md:text-7xl">
             WOOD&STONE
           </h2>
@@ -17,97 +14,69 @@ export default function Footer() {
             Moderní stavební společnost zaměřená na kvalitní realizace,
             dřevostavby, rekonstrukce a zemní práce.
           </p>
-
         </div>
 
         <div className="grid gap-14 py-16 md:grid-cols-3">
-
           <div>
-
-            <h3 className="mb-6 text-xl font-semibold">
-              Služby
-            </h3>
-
+            <h3 className="mb-6 text-xl font-semibold">Služby</h3>
             <ul className="space-y-4 text-neutral-400">
-
               <li>Rodinné domy</li>
               <li>Dřevostavby</li>
               <li>Pergoly</li>
               <li>Rekonstrukce</li>
               <li>Zemní práce</li>
-
             </ul>
-
           </div>
 
           <div>
-
-            <h3 className="mb-6 text-xl font-semibold">
-              Firma
-            </h3>
-
+            <h3 className="mb-6 text-xl font-semibold">Firma</h3>
             <ul className="space-y-4">
-
               <li>
                 <Link href="#about">O nás</Link>
               </li>
-
               <li>
                 <Link href="#services">Služby</Link>
               </li>
-
               <li>
                 <Link href="#gallery">Realizace</Link>
               </li>
-
               <li>
                 <Link href="#contact">Kontakt</Link>
               </li>
-
             </ul>
-
           </div>
 
           <div>
-
-            <h3 className="mb-6 text-xl font-semibold">
-              Kontakt
-            </h3>
-
+            <h3 className="mb-6 text-xl font-semibold">Kontakt</h3>
             <div className="space-y-4 text-neutral-400">
-
-              <p>
-                +420 123 456 789
-              </p>
-
-              <p>
-                info@woodstone.cz
-              </p>
-
-              <p>
-                Adolfovice 521, Česká republika
-              </p>
-
+              <p>+420 123 456 789</p>
+              <p>info@woodstone.cz</p>
+              <p>Adolfovice 521, Česká republika</p>
             </div>
-
           </div>
-
         </div>
 
-        <div className="flex flex-col gap-4 border-t border-white/10 py-8 text-sm text-neutral-500 md:flex-row md:items-center md:justify-between">
+        {/* Mapa */}
+<div className="overflow-hidden rounded-2xl border border-white/10">
+  <iframe
+    src="https://www.google.com/maps?q=WOOD%26STONE+s.r.o.+stavby&output=embed"
+    width="100%"
+    height="320"
+    style={{ border: 0, filter: "grayscale(1) invert(0.92) contrast(0.85)" }}
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+    title="Mapa - WOOD&STONE s.r.o."
+  />
+</div>
 
-          <p>
-            © 2026 WOOD&STONE. Všechna práva vyhrazena.
-          </p>
+{/* Přidej mezeru mezi mapou a copyright sekcí samostatně */}
+<div className="mt-16" />
 
-          <p>
-            Navrženo a vytvořeno s důrazem na kvalitu.
-          </p>
-
-        </div>
-
+<div className="flex flex-col gap-4 border-t border-white/10 py-8 text-sm text-neutral-500 md:flex-row md:items-center md:justify-between">
+  <p>© 2026 WOOD&STONE. Všechna práva vyhrazena.</p>
+  <p>Navrženo a vytvořeno s důrazem na kvalitu.</p>
+</div>
       </Container>
-
     </footer>
   );
 }

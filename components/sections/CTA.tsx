@@ -3,7 +3,7 @@ import Container from "@/components/ui/Container";
 
 export default function CTA() {
   return (
-    <section className="bg-[#2A2A2A] py-28">
+    <section className="bg-[#2A2A2A] py-18">
       <Container>
 
         <div className="mx-auto max-w-4xl text-center">
