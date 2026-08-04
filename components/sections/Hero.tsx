@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section className="relative isolate flex min-h-screen items-center overflow-hidden">
       <Image
-        src="/images/hero.jpg"
+        src="/images/hero3.jpg"
         alt="Wood&Stone"
         fill
         priority
