@@ -14,7 +14,7 @@ export default function Hero() {
 
       <div className="absolute inset-0 bg-black/40" />
 
-      <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/25 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/20 to-transparent" />
 
       <div className="relative z-10 mx-auto w-full max-w-7xl px-6">
 

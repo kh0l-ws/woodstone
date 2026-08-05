@@ -2,12 +2,14 @@
 
 import Container from "@/components/ui/Container";
 import Button from "@/components/ui/Button";
+import FadeIn from "@/components/ui/FadeIn";
 import { Phone, Mail, MapPin, User, MessageSquare } from "lucide-react";
 
 export default function Contact() {
   return (
     <section id="contact" className="bg-[#F5F2ED] py-28">
       <Container>
+        <FadeIn delay={0}>
         <div className="grid gap-16 lg:grid-cols-2">
           <div>
             <p className="uppercase tracking-[5px] text-[#8A6748]">
@@ -129,6 +131,7 @@ export default function Contact() {
             </p>
           </form>
         </div>
+        </FadeIn>
       </Container>
     </section>
   );

@@ -1,10 +1,12 @@
 import Container from "@/components/ui/Container";
 import Link from "next/link";
+import FadeIn from "@/components/ui/FadeIn";
 
 export default function Footer() {
   return (
     <footer className="bg-[#1F1F1F] text-white">
       <Container>
+      <FadeIn delay={0}>
         <div className="border-b border-white/10 py-20">
           <h2 className="text-5xl font-black tracking-wider md:text-7xl">
             WOOD&STONE
@@ -55,6 +57,8 @@ export default function Footer() {
             </div>
           </div>
         </div>
+        </FadeIn>
+    <FadeIn delay={0}>
 
         {/* Mapa */}
 <div className="overflow-hidden rounded-2xl border border-white/10">
@@ -68,7 +72,8 @@ export default function Footer() {
     title="Mapa - WOOD&STONE s.r.o."
   />
 </div>
-
+</FadeIn>
+<FadeIn delay={0}>
 {/* Přidej mezeru mezi mapou a copyright sekcí samostatně */}
 <div className="mt-16" />
 
@@ -76,6 +81,7 @@ export default function Footer() {
   <p>© 2026 WOOD&STONE s.r.o. Všechna práva vyhrazena.</p>
   <p>Navrženo a vytvořeno s důrazem na kvalitu.</p>
 </div>
+</FadeIn>
       </Container>
     </footer>
   );

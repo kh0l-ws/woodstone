@@ -1,11 +1,12 @@
 import Button from "@/components/ui/Button";
 import Container from "@/components/ui/Container";
+import FadeIn from "@/components/ui/FadeIn";
 
 export default function CTA() {
   return (
     <section className="bg-[#2A2A2A] py-18">
       <Container>
-
+        <FadeIn delay={0}>
         <div className="mx-auto max-w-4xl text-center">
 
           <p className="mb-4 uppercase tracking-[5px] text-[#A27B5C]">
@@ -26,8 +27,8 @@ export default function CTA() {
 
     
 
-        </div>
-
+        </div>  
+        </FadeIn>
       </Container>
     </section>
   );
