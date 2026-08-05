@@ -55,11 +55,11 @@ export default function Navbar() {
         </nav>
 
         <a
-          href="tel:+420123456789"
+          href="tel:+420774888959"
           className="hidden items-center gap-2 rounded-full bg-[#A27B5C] px-6 py-3 text-white lg:flex"
         >
           <Phone size={18} />
-          +420 123 456 789
+          +420 774 888 959
         </a>
       </div>
     </header>

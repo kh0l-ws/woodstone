@@ -50,8 +50,15 @@ export default function Footer() {
 
           <div>
             <h3 className="mb-6 text-xl font-semibold">Kontakt</h3>
-            <div className="space-y-4 text-neutral-400">
-              <p>+420 123 456 789</p>
+            <div className="space-y-2 text-neutral-400">
+              <h5 className="mb-2 text-l font-bold">Karel Neugebauer</h5>
+              <p>+420 774 888 959</p>
+              <p>info@woodstone.cz</p>
+            </div>
+            <br/>
+            <div className="space-y-2 text-neutral-400">
+              <h5 className="mb-2 text-l font-bold">Jan Malý</h5>
+              <p>+420 777 060 804</p>
               <p>info@woodstone.cz</p>
               <p>Adolfovice 521, Česká republika</p>
             </div>
