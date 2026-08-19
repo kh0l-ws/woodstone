@@ -13,7 +13,7 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "WOOD&STONE",
+  title: "WOOD&STONE s.r.o.",
   description: "Komplexní stavební služby",
 };
 
