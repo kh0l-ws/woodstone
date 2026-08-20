@@ -17,16 +17,16 @@ export default function Footer() {
             dřevostavby, rekonstrukce a zemní práce.
           </p>
         </div>
+        
 
         <div className="grid gap-14 py-16 md:grid-cols-3">
+          
           <div>
-            <h3 className="mb-6 text-xl font-semibold">Služby</h3>
-            <ul className="space-y-4 text-neutral-400">
-              <li>Rodinné domy</li>
-              <li>Dřevostavby</li>
-              <li>Pergoly</li>
-              <li>Rekonstrukce</li>
-              <li>Zemní práce</li>
+              <h3 className="mb-6 text-xl font-semibold">WOOD&STONE s.r.o.</h3>
+              <ul className="space-y-4 text-neutral-400">
+              <li>Adolfovice 521, Česká republika</li>
+              <li>IČO: 258 62 740</li>
+              <li>DIČ: CZ25862740</li>
             </ul>
           </div>
 
@@ -48,7 +48,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div>
+        <div>
             <h3 className="mb-6 text-xl font-semibold">Kontakt</h3>
             <div className="space-y-2 text-neutral-400">
               <h5 className="mb-2 text-l font-bold">Karel Neugebauer</h5>
@@ -60,9 +60,21 @@ export default function Footer() {
               <h5 className="mb-2 text-l font-bold">Jan Malý</h5>
               <p>+420 777 060 804</p>
               <p>info@woodstone.cz</p>
-              <p>Adolfovice 521, Česká republika</p>
             </div>
           </div>
+          {/* 
+          <div>
+            <h3 className="mb-6 text-xl font-semibold">Služby</h3>
+            <ul className="space-y-4 text-neutral-400">
+              <li>Rodinné domy</li>
+              <li>Dřevostavby</li>
+              <li>Pergoly</li>
+              <li>Rekonstrukce</li>
+              <li>Zemní práce</li>
+            </ul>
+          </div>
+          */}
+          
         </div>
         </FadeIn>
     <FadeIn delay={0}>
