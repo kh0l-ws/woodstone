@@ -16,7 +16,7 @@ export async function POST(request: Request) {
 
     await resend.emails.send({
       from: "Wood&Stone web <onboarding@resend.dev>", // dočasně, viz poznámka výše
-      to: "romanerkhol@gmail.com",
+      to: "zrnkhk24vv@privaterelay.appleid.com",
       replyTo: email,
       subject: `Nová poptávka od ${name}`,
       text: `

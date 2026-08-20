@@ -63,7 +63,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="font-semibold">Telefon</p>
-                    <p className="text-neutral-600">+420 123 456 789</p>
+                    <p className="text-neutral-600">+420 774 888 959</p>
                   </div>
                 </div>
 
