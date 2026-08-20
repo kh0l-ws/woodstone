@@ -15,7 +15,16 @@ const manrope = Manrope({
 
 export const metadata: Metadata = {
   title: "WOOD&STONE s.r.o.",
-  description: "Komplexní stavební služby",
+  description: "Dřevostavby, rekonstrukce, zemní práce a pergoly na Jesenicku. Realizujeme stavby v Adolfovicích, Jeseníku a okolí. Nezávazná poptávka zdarma.",
+  keywords: [
+    "dřevostavby Jeseník",
+    "stavební firma Jesenicko",
+    "rekonstrukce Jeseník",
+    "zemní práce Bělá pod Pradědem",
+    "zemní práce Jeseník",
+    "nábytek Jeseník",
+    "pergoly Jeseník",
+  ],
 };
 
 export default function RootLayout({
@@ -33,3 +42,4 @@ export default function RootLayout({
     </html>
   );
 }
+

@@ -24,7 +24,8 @@ export default function Footer() {
           <div>
               <h3 className="mb-6 text-xl font-semibold">WOOD&STONE s.r.o.</h3>
               <ul className="space-y-4 text-neutral-400">
-              <li>Adolfovice 521, Česká republika</li>
+              <li>Adolfovice 521</li>
+              <li>790 01 Bělá pod Pradědem</li>
               <li>IČO: 258 62 740</li>
               <li>DIČ: CZ25862740</li>
             </ul>
