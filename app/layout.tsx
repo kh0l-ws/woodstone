@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Manrope } from "next/font/google";
 import "./globals.css";
-import Script from "next/script";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const inter = Inter({
