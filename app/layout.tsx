@@ -4,6 +4,7 @@ import "./globals.css";
 import Script from "next/script";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next"
+import CookieConsent from "@/components/CookieConsent";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -39,6 +40,7 @@ export default function RootLayout({
       <body className={`${inter.variable} ${manrope.variable} antialiased`}>
         {children}
         <SpeedInsights />
+        <CookieConsent />
       </body>
     </html>
   );
