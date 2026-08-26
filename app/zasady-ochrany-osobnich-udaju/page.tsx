@@ -44,7 +44,7 @@ export default function PrivacyPolicyPage() {
       <h2>4. Doba uchování</h2>
       <p>
         Údaje z poptávkového formuláře uchováváme po dobu nezbytnou k vyřízení
-        poptávky a případné realizaci zakázky, nejdéle však [DOPLNIT, např. 3 roky]
+        poptávky a případné realizaci zakázky, nejdéle však 2 roky
         od posledního kontaktu, pokud nevznikne smluvní vztah, u kterého platí
         další zákonné lhůty (např. účetní a daňové předpisy).
       </p>
@@ -59,8 +59,7 @@ export default function PrivacyPolicyPage() {
       <h2>6. Cookies</h2>
       <p>
         Náš web může používat cookies pro zajištění základní funkčnosti a
-        (po vašem souhlasu) pro analytické či marketingové účely
-        [DOPLNIT dle skutečně použitých nástrojů, např. Google Analytics, Facebook Pixel].
+        (po vašem souhlasu) pro analytické či marketingové účely.
         Používání nezbytných technických cookies není podmíněno souhlasem,
         ostatní kategorie cookies aktivujeme až po vašem souhlasu prostřednictvím
         cookie lišty.
