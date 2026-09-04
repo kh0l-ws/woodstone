@@ -3,6 +3,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 type Category = "Vše" | "Domy" | "Pergoly" | "Rekonstrukce" | "Zemní práce" | "Truhlářství";
 
@@ -48,6 +49,13 @@ export default function GaleriePage() {
 
   return (
     <main className="max-w-6xl mx-auto px-4 py-16 md:py-24">
+      <Link
+        href="/"
+        className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-neutral-900 text-neutral-900 font-medium hover:bg-neutral-900 hover:text-white transition cursor-pointer mb-8"
+      >
+    <span aria-hidden="true">←</span>
+       Zpět na hlavní stránku
+    </Link>
       <p className="text-sm uppercase tracking-wide text-neutral-500 mb-2">
         Realizace
       </p>
