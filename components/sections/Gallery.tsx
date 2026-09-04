@@ -3,6 +3,7 @@ import Container from "@/components/ui/Container";
 import SectionTitle from "@/components/ui/SectionTitle";
 import { gallery } from "@/data/gallery";
 import FadeIn from "@/components/ui/FadeIn";
+import Link from "next/link";
 
 export default function Gallery() {
   return (
@@ -43,6 +44,15 @@ export default function Gallery() {
               </div>
             </article>
           ))}
+        </div>
+        <div className="flex justify-center mt-10">
+          <Link
+              href="/galerie"
+                  className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-neutral-900 text-neutral-900 font-medium hover:bg-neutral-900 hover:text-white transition cursor-pointer"  
+          >
+              Zobrazit všechny realizace
+            <span aria-hidden="true">→</span>
+          </Link>
         </div>
       </Container>
     </section>
